@@ -8,6 +8,43 @@
 h1,h2,h3,h4{
     font-family: var(--heading-font-family);
 }
+header{
+    background: var(--secondary-color);
+}
+ header{
+     display:flex;
+     
+    justify-content:space-between;
+    align-items: flex-end;
+    }
+.navigation-links li{
+    display:inline-block;
+    padding:0 40px;
+}
+.navigation-links li a{
+    text-decoration: none;
+    color: #272142;
+    opacity: 0.7;
+    font-size:16px;
+    line-height: 18px;
+
+}
+.navigation-links li a:hover{
+    color: var(--branding-color);
+}
+
+
+
+.logo-link{
+    text-decoration:none;
+    padding:0 30px;
+    font-weight: 700;
+    font-size:18px;
+    line-height: 27px;
+    color: #272142;
+    font-family:var(--heading-font-family)
+
+}
 .hero{
     background: var(--secondary-color);
     text-align: center;
@@ -61,6 +98,29 @@ p{
     .project-description{
         padding:120px 60px;
     }
+    li{
+        list-style-type: none;
+         padding:20px;
+    }
+    
+
+    
+    footer a{ 
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size:24px;
+        color: #272142;
+        padding-bottom: 50px;
+    
+    }
+    .communication {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        padding:0px;
+    }
+    
 
     @media(max-width:900px){
        .hero h1{
