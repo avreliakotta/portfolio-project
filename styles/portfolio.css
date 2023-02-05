@@ -6,7 +6,7 @@
    --defoult-font-family:"Poppins", sans-serif;
 
 }
-h1,h2,h3,h4{
+h1,h2{
     font-family: var(--heading-font-family);
 }
 .nav-link{
@@ -71,26 +71,26 @@ p{
     line-height: 30px;
 }
 
-.about-section-contant h1{
+.content h1{
     font-size: 64px;
     line-height: 80px;
     color: var(--accent-color);
     
 
 }
-.about-section-contant h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--defoult-font-family);
     font-weight: bold;
     color: var(--accent-color);
 }
-.about-section-contant p{
+.content p{
     font-size:16px;
     line-height: 30px;
     font-family: var(--defoult-font-family);
     color: var(--accent-color);
 }
-.about-section-contant .btn-branding{
+.content .btn-branding{
     padding:15px 20px;
     background:var(--branding-color);
     border-radius: 4px;
@@ -101,9 +101,20 @@ p{
     text-align: center;
 
 }
-.about-section-container .img-fluid {
+.content-container .img-fluid {
 
     border-radius: 20px;
+}
+.content-container{
+    padding:160px 20px;
+
+}
+.content h3{
+    font-size: 24px;
+    color: var(--accent-color);
+    font-family: var(--defoult-font-family);
+
+    margin: 20px 0 0;;
 }
 
 h3{
@@ -178,22 +189,22 @@ h3{
             padding:0;
             text-align: center;
         }
-        .about-section-contant h1{
+        .content h1{
             text-align: center;
             
             font-size: 44px;
         }
-        .about-section-contant p{
+        .content p{
             text-align: center;
         }
-        .about-section-contant h2{
+        .content h2{
             text-align: center;
             font-size: 20px;
             margin-top:15px ;
         }
 
         
-        .about-section-contant .btn-branding{
+        content .btn-branding{
             margin-bottom:50px;
             margin-top: 20px;
             text-align: center;
