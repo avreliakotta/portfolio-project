@@ -9,12 +9,13 @@
 h1,h2{
     font-family: var(--heading-font-family);
 }
-.nav-link{
+ .nav-link {
     font-size: 16px;
-    font-weight: 500;
-    line-height: 27px;
+    font-weight: bold;
+    line-height: 1.5;
     color:var(--accent-color);
     font-family: var(--defoult-font-family);
+    transition: all 150ms ease-in-out;
 }
 .navbar-brand{
     font-size: 16px;
@@ -23,8 +24,10 @@ h1,h2{
     font-family: var(--heading-font-family);
     
 }
-
- a.active:hover{
+ .nav-link:hover{
+    color: var(--branding-color)!important;
+ }
+ a.active{
     color: var(--branding-color)!important;
 }
 .hero{
