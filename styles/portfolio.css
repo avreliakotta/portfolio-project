@@ -6,15 +6,19 @@
    --defoult-font-family:"Poppins", sans-serif;
 
 }
-h1,h2{
+body{
+    font-family: var(--defoult-font-family);
+    color: var(--accent-color);
+}
+h1,h2,h3{
     font-family: var(--heading-font-family);
+    font-weight: 700;
+
 }
  .nav-link {
     font-size: 16px;
     font-weight: bold;
     line-height: 1.5;
-    color:var(--accent-color);
-    font-family: var(--defoult-font-family);
     transition: all 150ms ease-in-out;
 }
 .navbar-brand{
@@ -33,28 +37,23 @@ h1,h2{
 .hero{
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero p{
-    font-family: var(--defoult-font-family);
     font-weight: bold;
     font-size: 36px;
-    color: var(--accent-color);
-    margin: 0;
+     margin: 0;
 }
 .hero h1{
     font-size: 96px;
     font-weight: bold;
-    font-family: var(--heading-font-family);
-    color: var(--branding-color);
-}
+    }
 .hero h2{
     font-family: var(--defoult-font-family);
     font-weight: normal;
     font-size: 24px;
     line-height: 2;
-    color: var(--accent-color);
-}
+    }
 .btn-branding{
     background: var(--branding-color);
     border-radius: 4px;
@@ -62,7 +61,7 @@ h1,h2{
     padding:15px 20px;
     font-size:18px;
     line-height: 27px;
-    font-family: var(--defoult-font-family);
+    
 }
 
  
@@ -71,29 +70,22 @@ h2{
 }
 p{
     font-size: 16px;
-    font-weight: normal;
     line-height: 1.88;
 }
 
 .content h1{
     font-size: 64px;
     line-height:1.25;
-    color: var(--accent-color);
-    
-
-}
+    }
 .content h2 {
     font-size: 18px;
-    font-family: var(--defoult-font-family);
     font-weight: 700;
-    color: var(--accent-color);
+    font-family: var(--defoult-font-family);
 }
 .content p{
     font-size:16px;
     line-height: 1.88;
-    font-family: var(--defoult-font-family);
-    color: var(--accent-color);
-}
+    }
 .content .btn-branding{
     padding:15px 20px;
     background:var(--branding-color);
@@ -101,23 +93,17 @@ p{
     color: #ffffff;
     font-size: 18px;
     line-height: 1.5;
-    font-family: var(--defoult-font-family);
     text-align: center;
-
 }
 .content-container .img-fluid {
-
-    border-radius: 20px;
+ border-radius: 20px;
 }
 .content-container{
-    padding:160px 20px;
-
+    padding:60px 20px;
 }
 .content h3{
     font-size: 24px;
-    color: var(--accent-color);
     font-family: var(--defoult-font-family);
-
     margin: 20px 0 0;;
 }
 
@@ -125,23 +111,18 @@ h3{
     font-size: 48px;
     font-weight:400px;
     line-height:1.33 ;
-    font-family: var(--heading-font-family);
-
-    
-}
+    }
 .box{
     box-sizing: border-box;
     border-radius: 20px;
     background: var(--secondary-color);
-    padding:30px 120px;
     
-}
+    }
 
 
 
 .btn-branding-outline{
-    
-    color: var(--branding-color);
+     color: var(--branding-color);
     font-size: 18px;
     padding:15px 30px;
     border-radius: 4px;
@@ -154,8 +135,6 @@ h3{
         list-style-type: none;
          padding:20px;
     }
-    
-
     
     footer{
         margin: 60px;
